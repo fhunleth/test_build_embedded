@@ -1,4 +1,4 @@
-# build_embedded_test
+# test_build_embedded
 
 To run:
 
