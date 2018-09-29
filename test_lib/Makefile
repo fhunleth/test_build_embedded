@@ -3,7 +3,7 @@
 all: priv priv/hello
 
 %.o: %.c
-	$(CC) -c $(CFLAGS) -o $@ $<
+	$(CC) -D MIX_TARGET="\"$(MIX_TARGET)\"" -c $(CFLAGS) -o $@ $<
 
 priv:
 	mkdir -p priv
